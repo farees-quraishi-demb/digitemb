@@ -23,7 +23,7 @@
 
 import os
 import boto3
-db_name = "Test"
+db_name = "ODOO13"
 path = "/home/users/saurabh.gupta/.local/share/Odoo/filestore/" + db_name
 bucket_name = "test-webkul-erp"
 s3 = boto3.client('s3')
